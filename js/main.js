@@ -43,7 +43,7 @@ if(sesionExitosa){
         respuesta = prompt("Desea cargar otro producto 1-Si 2-No")
     }
 
-    alert("el total a pagar es de " + totalPagar + "\n la cantidad de producto/s con descuento es de " + cantidadDescuento + "\n el descuento en productos es de " + totalDescuento);
+    alert("el total a pagar es de $" + totalPagar + "\n la cantidad de producto/s con descuento es de " + cantidadDescuento + " unidades" + "\n el descuento en productos es de $" + totalDescuento);
         
     }else{
     alert("Demasiados intentos fallidos \n Vuelva a intentarlo mas tarde o comuniquese por telefono a alguna de nuestras sucursales")
